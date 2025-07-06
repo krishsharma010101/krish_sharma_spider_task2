@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Recon Report - example.com</title>
+    <style>
+        body { font-family: Arial, sans-serif; background: #f5f5f5; padding: 20px; }
+        h1, h2 { color: #333; }
+        pre { background: #eee; padding: 10px; overflow-x: auto; }
+        .section { margin-bottom: 40px; }
+    </style>
+</head>
+<body>
+    <h1>Recon Report: example.com</h1>
+
+    <div class="section">
+        <h2>Subdomains</h2>
+        <pre>[
+  "*.example.com\nexample.com",
+  "*.example.com\nexample.com\nm.example.com\nwww.example.com",
+  "AS207960 Test Intermediate - example.com",
+  "dev.example.com\nexample.com\nproducts.example.com\nsupport.example.com\nwww.example.com",
+  "example.com\nm.testexample.com\nwww.example.com",
+  "example.com\nuser@example.com",
+  "example.com\nwww.example.com",
+  "subjectname@example.com"
+]</pre>
+    </div>
+
+    <div class="section">
+        <h2>DNS Records</h2>
+        <pre>{
+  "A": [
+    "96.7.128.198",
+    "23.215.0.136",
+    "23.215.0.138",
+    "96.7.128.175",
+    "23.192.228.80",
+    "23.192.228.84"
+  ],
+  "MX": [
+    "0 ."
+  ],
+  "NS": [
+    "a.iana-servers.net.",
+    "b.iana-servers.net."
+  ]
+}</pre>
+    </div>
+
+    <div class="section">
+        <h2>WHOIS Info</h2>
+        <pre>{
+  "domain_name": "EXAMPLE.COM",
+  "registrar": "RESERVED-Internet Assigned Numbers Authority",
+  "registrar_url": "http://res-dom.iana.org",
+  "reseller": null,
+  "whois_server": "whois.iana.org",
+  "referral_url": null,
+  "updated_date": "2024-08-14 07:01:34",
+  "creation_date": "1995-08-14 04:00:00",
+  "expiration_date": "2025-08-13 04:00:00",
+  "name_servers": [
+    "A.IANA-SERVERS.NET",
+    "B.IANA-SERVERS.NET"
+  ],
+  "status": [
+    "clientDeleteProhibited https://icann.org/epp#clientDeleteProhibited",
+    "clientTransferProhibited https://icann.org/epp#clientTransferProhibited",
+    "clientUpdateProhibited https://icann.org/epp#clientUpdateProhibited"
+  ],
+  "emails": null,
+  "dnssec": "signedDelegation",
+  "name": null,
+  "org": null,
+  "address": null,
+  "city": null,
+  "state": null,
+  "registrant_postal_code": null,
+  "country": null
+}</pre>
+    </div>
+
+    <div class="section">
+        <h2>HTTP Headers</h2>
+        <pre>{
+  "Accept-Ranges": "bytes",
+  "Cache-Control": "max-age=3474",
+  "Connection": "keep-alive",
+  "Content-Encoding": "gzip",
+  "Content-Length": "648",
+  "Content-Type": "text/html",
+  "Date": "Fri, 04 Jul 2025 18:40:52 GMT",
+  "ETag": "\"84238dfc8092e5d9c0dac8ef93371a07:1736799080.121134\"",
+  "Last-Modified": "Mon, 13 Jan 2025 20:11:20 GMT",
+  "Vary": "Accept-Encoding"
+}</pre>
+    </div>
+
+    <div class="section">
+        <h2>robots.txt / sitemap.xml</h2>
+        <pre>{
+  "robots.txt": "Not Found",
+  "sitemap.xml": "Not Found"
+}</pre>
+    </div>
+
+    <div class="section">
+        <h2>Port Scan</h2>
+        <pre>Starting Nmap 7.97 ( https://nmap.org ) at 2025-07-05 00:10 +0530
+Nmap scan report for example.com (96.7.128.198)
+Host is up (0.27s latency).
+Other addresses for example.com (not scanned): 23.215.0.136 23.215.0.138 96.7.128.175 23.192.228.80 23.192.228.84 2600:1406:3a00:21::173e:2e65 2600:1406:3a00:21::173e:2e66 2600:1406:bc00:53::b81e:94c8 2600:1408:ec00:36::1736:7f24 2600:1406:bc00:53::b81e:94ce 2600:1408:ec00:36::1736:7f31
+rDNS record for 96.7.128.198: a96-7-128-198.deploy.static.akamaitechnologies.com
+Not shown: 996 filtered tcp ports (no-response), 1 filtered tcp ports (admin-prohibited)
+PORT    STATE SERVICE
+80/tcp  open  http
+110/tcp open  pop3
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 36.07 seconds
+</pre>
+    </div>
+
+    <div class="section">
+        <h2>Technology Detection</h2>
+        <pre>Tech detection failed: [WinError 2] The system cannot find the file specified</pre>
+    </div>
+
+    <div class="section">
+        <h2>Email Addresses</h2>
+        <pre>[
+  "* cmartorella@edge-security.com                                   *"
+]</pre>
+    </div>
+
+    <div class="section">
+        <h2>Shodan Info</h2>
+        <pre>{
+  "error": "Requires membership or higher to access"
+}</pre>
+    </div>
+
+    <div class="section">
+        <h2>WAF Detection</h2>
+        <pre>
+                ______
+               /      \
+              (  W00f! )
+               \  ____/
+               ,,    __            404 Hack Not Found
+           |`-.__   / /                      __     __
+           /"  _/  /_/                       \ \   / /
+          *===*    /                          \ \_/ /  405 Not Allowed
+         /     )__//                           \   /
+    /|  /     /---`                        403 Forbidden
+    \\/`   \ |                                 / _ \
+    `\    /_\\_              502 Bad Gateway  / / \ \  500 Internal Error
+      `_____``-`                             /_/   \_\\
+
+                        ~ WAFW00F : v2.3.1 ~
+        The Web Application Firewall Fingerprinting Toolkit
+    
+[*] Checking https://example.com
+[+] Generic Detection results:
+[-] No WAF detected by the generic detection
+[~] Number of requests: 7
+</pre>
+    </div>
+
+    <div class="section">
+        <h2>Screenshots</h2>
+        <p>Screenshots are saved in the <code>./screenshots</code> folder.</p>
+    </div>
+</body>
+</html>
