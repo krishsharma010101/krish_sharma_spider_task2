@@ -1,0 +1,325 @@
+{
+  "PortScan": {
+    "error": "'example.com'"
+  },
+  "TechDetection": "http://example.com [200 OK] HTML5, IP[2600:1406:3a00:21::173e:2e66], Title[Example Domain]",
+  "EmailHarvesting": "Read proxies.yaml from C:\\Users\\Krish Sharma\\.theHarvester\\proxies.yaml\n*******************************************************************\n*  _   _                                            _             *\n* | |_| |__   ___    /\\  /\\__ _ _ ____   _____  ___| |_ ___ _ __  *\n* | __|  _ \\ / _ \\  / /_/ / _` | '__\\ \\ / / _ \\/ __| __/ _ \\ '__| *\n* | |_| | | |  __/ / __  / (_| | |   \\ V /  __/\\__ \\ ||  __/ |    *\n*  \\__|_| |_|\\___| \\/ /_/ \\__,_|_|    \\_/ \\___||___/\\__\\___|_|    *\n*                                                                 *\n* theHarvester 4.8.0                                              *\n* Coded by Christian Martorella                                   *\n* Edge-Security Research                                          *\n* cmartorella@edge-security.com                                   *\n*                                                                 *\n*******************************************************************\n\n[*] Target: example.com \n\nAn exception has occurred: Server disconnected\nAn exception has occurred: Server disconnected\nAn exception has occurred: Server disconnected\nAn exception has occurred: Server disconnected\nAn exception has occurred: Server disconnected\nAn exception has occurred: Server disconnected\nAn exception has occurred: Server disconnected\nAn exception has occurred: Server disconnected\nAn exception has occurred: Server disconnected\n\u001b[94m[*] Searching Duckduckgo. \nAn exception has occurred: Server disconnected\n\u001b[94m[*] Searching Baidu. \nAn exception has occurred: \n\u001b[94m[*] Searching CRTsh. \n\n[*] No IPs found.\n\n[*] No emails found.\n\n[*] No people found.\n\n[*] Hosts found: 0\n---------------------",
+  "ShodanLookup": {
+    "region_code": "CA",
+    "tags": [
+      "cdn"
+    ],
+    "ip": 398517328,
+    "area_code": null,
+    "domains": [
+      "akamaitechnologies.com",
+      "akamai.net"
+    ],
+    "hostnames": [
+      "a23-192-228-80.deploy.static.akamaitechnologies.com",
+      "a248.e.akamai.net"
+    ],
+    "country_code": "US",
+    "org": "Akamai Technologies, Inc.",
+    "data": [
+      {
+        "info": "Akamai's HTTP Acceleration & Mirror service",
+        "product": "AkamaiGHost",
+        "http": {
+          "status": 400,
+          "robots_hash": null,
+          "redirects": [],
+          "title_hash": -1304804831,
+          "securitytxt": null,
+          "title": "Invalid URL",
+          "sitemap_hash": null,
+          "waf": "Kona SiteDefender (Akamai)",
+          "robots": null,
+          "dom_hash": 1573194187,
+          "headers_hash": -1469183412,
+          "host": "23.192.228.80",
+          "html": "<HTML><HEAD>\n<TITLE>Invalid URL</TITLE>\n</HEAD><BODY>\n<H1>Invalid URL</H1>\nThe requested URL \"&#91;no&#32;URL&#93;\", is invalid.<p>\nReference&#32;&#35;9&#46;5ca33017&#46;1751495513&#46;11f891bb\n<P>https&#58;&#47;&#47;errors&#46;edgesuite&#46;net&#47;9&#46;5ca33017&#46;1751495513&#46;11f891bb</P>\n</BODY></HTML>\n",
+          "server_hash": 2116151450,
+          "location": "/",
+          "components": {},
+          "securitytxt_hash": null,
+          "server": "AkamaiGHost",
+          "sitemap": null,
+          "html_hash": 1620366439
+        },
+        "os": null,
+        "tags": [
+          "cdn"
+        ],
+        "timestamp": "2025-07-02T22:31:47.349561",
+        "isp": "Akamai International B.V.",
+        "transport": "tcp",
+        "_shodan": {
+          "region": "na",
+          "crawler": "953e5789ebd0c7c2d8820a1063ea591bfd2f639f",
+          "options": {},
+          "module": "http",
+          "id": "04742f12-1481-4049-bf3b-88d498c717d0"
+        },
+        "hash": -99205816,
+        "asn": "AS20940",
+        "hostnames": [
+          "a23-192-228-80.deploy.static.akamaitechnologies.com"
+        ],
+        "location": {
+          "city": "San Jose",
+          "region_code": "CA",
+          "area_code": null,
+          "longitude": -121.89496,
+          "latitude": 37.33939,
+          "country_code": "US",
+          "country_name": "United States"
+        },
+        "ip": 398517328,
+        "domains": [
+          "akamaitechnologies.com"
+        ],
+        "org": "Akamai Technologies, Inc.",
+        "data": "HTTP/1.0 400 Bad Request\r\nServer: AkamaiGHost\r\nMime-Version: 1.0\r\nContent-Type: text/html\r\nContent-Length: 312\r\nExpires: Wed, 02 Jul 2025 22:31:53 GMT\r\nDate: Wed, 02 Jul 2025 22:31:53 GMT\r\nConnection: close\r\n\r\n",
+        "port": 80,
+        "opts": {},
+        "ip_str": "23.192.228.80"
+      },
+      {
+        "info": "Akamai's HTTP Acceleration & Mirror service",
+        "product": "AkamaiGHost",
+        "http": {
+          "status": 400,
+          "robots_hash": null,
+          "redirects": [],
+          "title_hash": -1304804831,
+          "securitytxt": null,
+          "title": "Invalid URL",
+          "sitemap_hash": null,
+          "waf": "Kona SiteDefender (Akamai)",
+          "robots": null,
+          "dom_hash": 1573194187,
+          "headers_hash": -1469183412,
+          "host": "23.192.228.80",
+          "html": "<HTML><HEAD>\n<TITLE>Invalid URL</TITLE>\n</HEAD><BODY>\n<H1>Invalid URL</H1>\nThe requested URL \"&#91;no&#32;URL&#93;\", is invalid.<p>\nReference&#32;&#35;9&#46;5ca33017&#46;1751455507&#46;69f60c11\n<P>https&#58;&#47;&#47;errors&#46;edgesuite&#46;net&#47;9&#46;5ca33017&#46;1751455507&#46;69f60c11</P>\n</BODY></HTML>\n",
+          "server_hash": 2116151450,
+          "location": "/",
+          "components": {},
+          "securitytxt_hash": null,
+          "server": "AkamaiGHost",
+          "sitemap": null,
+          "html_hash": 1097049508
+        },
+        "os": null,
+        "asn": "AS20940",
+        "tags": [
+          "cdn"
+        ],
+        "timestamp": "2025-07-02T11:25:07.499762",
+        "isp": "Akamai International B.V.",
+        "transport": "tcp",
+        "_shodan": {
+          "region": "na",
+          "module": "https",
+          "ptr": true,
+          "options": {},
+          "id": "966682af-c9c1-472e-966c-1d68a2b926a6",
+          "crawler": "aae39d1b094d4d9c7d50b03c9430f8947d98e661"
+        },
+        "hash": -50746109,
+        "ssl": {
+          "chain_sha256": [
+            "ba56c4ee2a1c8db710bfe73a1fa3e4b0ad3f290d0192589b8c71de449961c696",
+            "f7a9a1b2fd964a3f2670bd668d561fb7c55d3aa9ab8391e7e169702db8a3dbcf"
+          ],
+          "jarm": "27d27d27d29d27d21c42d42d000000996c218236a1fd203fd29824aa76026c",
+          "tlsext": [
+            {
+              "id": 43,
+              "name": "supported_versions"
+            },
+            {
+              "id": 51,
+              "name": "key_share"
+            },
+            {
+              "id": 0,
+              "name": "server_name"
+            },
+            {
+              "id": 10,
+              "name": "supported_groups"
+            },
+            {
+              "id": 5,
+              "name": "status_request"
+            }
+          ],
+          "chain": [
+            "-----BEGIN CERTIFICATE-----\nMIIFyTCCBU+gAwIBAgIQCmiu2chh9nXpic/vpvvPrTAKBggqhkjOPQQDAzBWMQsw\nCQYDVQQGEwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5jMTAwLgYDVQQDEydEaWdp\nQ2VydCBUTFMgSHlicmlkIEVDQyBTSEEzODQgMjAyMCBDQTEwHhcNMjUwMzE4MDAw\nMDAwWhcNMjYwMzE4MjM1OTU5WjB5MQswCQYDVQQGEwJVUzEWMBQGA1UECBMNTWFz\nc2FjaHVzZXR0czESMBAGA1UEBxMJQ2FtYnJpZGdlMSIwIAYDVQQKExlBa2FtYWkg\nVGVjaG5vbG9naWVzLCBJbmMuMRowGAYDVQQDExFhMjQ4LmUuYWthbWFpLm5ldDBZ\nMBMGByqGSM49AgEGCCqGSM49AwEHA0IABImzrSQHlHNXWfJEEkPbAXSqvTsfhqeB\nl3wh7emMA+vS/egu1F8SIcCcWlcf6REAwm7YpF3YIi3LiNNFzxERXOGjggPaMIID\n1jAfBgNVHSMEGDAWgBQKvAgpF4ylOW16Ds4zxy6z7fvDejAdBgNVHQ4EFgQUVIhr\n1aIzV8crohMI8hHwqlD0TrgwbgYDVR0RBGcwZYIRYTI0OC5lLmFrYW1haS5uZXSC\nDyouYWthbWFpemVkLm5ldIIXKi5ha2FtYWl6ZWQtc3RhZ2luZy5uZXSCDiouYWth\nbWFpaGQubmV0ghYqLmFrYW1haWhkLXN0YWdpbmcubmV0MD4GA1UdIAQ3MDUwMwYG\nZ4EMAQICMCkwJwYIKwYBBQUHAgEWG2h0dHA6Ly93d3cuZGlnaWNlcnQuY29tL0NQ\nUzAOBgNVHQ8BAf8EBAMCA4gwHQYDVR0lBBYwFAYIKwYBBQUHAwEGCCsGAQUFBwMC\nMIGbBgNVHR8EgZMwgZAwRqBEoEKGQGh0dHA6Ly9jcmwzLmRpZ2ljZXJ0LmNvbS9E\naWdpQ2VydFRMU0h5YnJpZEVDQ1NIQTM4NDIwMjBDQTEtMS5jcmwwRqBEoEKGQGh0\ndHA6Ly9jcmw0LmRpZ2ljZXJ0LmNvbS9EaWdpQ2VydFRMU0h5YnJpZEVDQ1NIQTM4\nNDIwMjBDQTEtMS5jcmwwgYUGCCsGAQUFBwEBBHkwdzAkBggrBgEFBQcwAYYYaHR0\ncDovL29jc3AuZGlnaWNlcnQuY29tME8GCCsGAQUFBzAChkNodHRwOi8vY2FjZXJ0\ncy5kaWdpY2VydC5jb20vRGlnaUNlcnRUTFNIeWJyaWRFQ0NTSEEzODQyMDIwQ0Ex\nLTEuY3J0MAwGA1UdEwEB/wQCMAAwggF/BgorBgEEAdZ5AgQCBIIBbwSCAWsBaQB3\nAA5XlLzzrqk+MxssmQez95Dfm8I9cTIl3SGpJaxhxU4hAAABlapjt4cAAAQDAEgw\nRgIhAOsA8uli1klVicHkBRkeKl69qdF4dQLZ17DNS/LQqO4RAiEAxnbXWZcLAe7B\nWgHBRkoWOtnhaIWsXhRjfID+ik83NnsAdgBJnJtp3h187Pw23s2HZKa4W68Kh4AZ\n0VVS++nrKd34wwAAAZWqY7fJAAAEAwBHMEUCIQDW8uoqdKWs7n53yJhVE3wCtBgI\n8RSHWyoOQjfWiIEXGwIgcWYly+tW3IG1opzIgVB9YVLgH7VNG4h7RgKCfwNcEAIA\ndgDLOPcViXyEoURfW8Hd+8lu8ppZzUcKaQWFsMsUwxRY5wAAAZWqY7edAAAEAwBH\nMEUCIEpDNcKruYuseA2C4BmEFwG6qbbBf1S6OcjdOv/9lVnLAiEA3pjAftLC1+O+\nQsfbS+eQ5vlNHGp8jzdE1LK8JBx+h5gwCgYIKoZIzj0EAwMDaAAwZQIwSr3dXRWi\nMMhapD/p29FaBrGB/BNcBK3dDQigCeXOEdyaa0yINk+5g/brkFfX+Dr2AjEAs53z\nV3mZSBZa5sWKf+oULRclMLrqoxfOZ1wFn2SnoY3B39cXPgRbW2cNJ0syDjwr\n-----END CERTIFICATE-----\n",
+            "-----BEGIN CERTIFICATE-----\nMIIEFzCCAv+gAwIBAgIQB/LzXIeod6967+lHmTUlvTANBgkqhkiG9w0BAQwFADBh\nMQswCQYDVQQGEwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5jMRkwFwYDVQQLExB3\nd3cuZGlnaWNlcnQuY29tMSAwHgYDVQQDExdEaWdpQ2VydCBHbG9iYWwgUm9vdCBD\nQTAeFw0yMTA0MTQwMDAwMDBaFw0zMTA0MTMyMzU5NTlaMFYxCzAJBgNVBAYTAlVT\nMRUwEwYDVQQKEwxEaWdpQ2VydCBJbmMxMDAuBgNVBAMTJ0RpZ2lDZXJ0IFRMUyBI\neWJyaWQgRUNDIFNIQTM4NCAyMDIwIENBMTB2MBAGByqGSM49AgEGBSuBBAAiA2IA\nBMEbxppbmNmkKaDp1AS12+umsmxVwP/tmMZJLwYnUcu/cMEFesOxnYeJuq20ExfJ\nqLSDyLiQ0cx0NTY8g3KwtdD3ImnI8YDEe0CPz2iHJlw5ifFNkU3aiYvkA8ND5b8v\nc6OCAYIwggF+MBIGA1UdEwEB/wQIMAYBAf8CAQAwHQYDVR0OBBYEFAq8CCkXjKU5\nbXoOzjPHLrPt+8N6MB8GA1UdIwQYMBaAFAPeUDVW0Uy7ZvCj4hsbw5eyPdFVMA4G\nA1UdDwEB/wQEAwIBhjAdBgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIwdgYI\nKwYBBQUHAQEEajBoMCQGCCsGAQUFBzABhhhodHRwOi8vb2NzcC5kaWdpY2VydC5j\nb20wQAYIKwYBBQUHMAKGNGh0dHA6Ly9jYWNlcnRzLmRpZ2ljZXJ0LmNvbS9EaWdp\nQ2VydEdsb2JhbFJvb3RDQS5jcnQwQgYDVR0fBDswOTA3oDWgM4YxaHR0cDovL2Ny\nbDMuZGlnaWNlcnQuY29tL0RpZ2lDZXJ0R2xvYmFsUm9vdENBLmNybDA9BgNVHSAE\nNjA0MAsGCWCGSAGG/WwCATAHBgVngQwBATAIBgZngQwBAgEwCAYGZ4EMAQICMAgG\nBmeBDAECAzANBgkqhkiG9w0BAQwFAAOCAQEAR1mBf9QbH7Bx9phdGLqYR5iwfnYr\n6v8ai6wms0KNMeZK6BnQ79oU59cUkqGS8qcuLa/7Hfb7U7CKP/zYFgrpsC62pQsY\nkDUmotr2qLcy/JUjS8ZFucTP5Hzu5sn4kL1y45nDHQsFfGqXbbKrAjbYwrwsAZI/\nBKOLdRHHuSm8EdCGupK8JvllyDfNJvaGEwwEqonleLHBTnm8dqMLUeTF0J5q/hos\nVq4GNiejcxwIfZMy0MJEGdqN9A57HSgDKwmKdsp33Id6rHtSJlWncg+d0ohP/rEh\nxRqhqjn1VtvChMQ1H3Dau0bwhr9kAMQ+959GG50jBbl9s08PqUU643QwmA==\n-----END CERTIFICATE-----\n"
+          ],
+          "versions": [
+            "TLSv1",
+            "-SSLv2",
+            "-SSLv3",
+            "TLSv1.1",
+            "TLSv1.2",
+            "TLSv1.3"
+          ],
+          "acceptable_cas": [],
+          "alpn": [],
+          "cert": {
+            "sig_alg": "ecdsa-with-SHA384",
+            "issued": "20250318000000Z",
+            "expires": "20260318235959Z",
+            "pubkey": {
+              "bits": 256,
+              "type": "dsa"
+            },
+            "version": 2,
+            "extensions": [
+              {
+                "data": "0\\x16\\x80\\x14\\n\\xbc\\x08)\\x17\\x8c\\xa59mz\\x0e\\xce3\\xc7.\\xb3\\xed\\xfb\\xc3z",
+                "name": "authorityKeyIdentifier"
+              },
+              {
+                "data": "\\x04\\x14T\\x88k\\xd5\\xa23W\\xc7+\\xa2\\x13\\x08\\xf2\\x11\\xf0\\xaaP\\xf4N\\xb8",
+                "name": "subjectKeyIdentifier"
+              },
+              {
+                "data": "0e\\x82\\x11a248.e.akamai.net\\x82\\x0f*.akamaized.net\\x82\\x17*.akamaized-staging.net\\x82\\x0e*.akamaihd.net\\x82\\x16*.akamaihd-staging.net",
+                "name": "subjectAltName"
+              },
+              {
+                "data": "0503\\x06\\x06g\\x81\\x0c\\x01\\x02\\x020)0\\'\\x06\\x08+\\x06\\x01\\x05\\x05\\x07\\x02\\x01\\x16\\x1bhttp://www.digicert.com/CPS",
+                "name": "certificatePolicies"
+              },
+              {
+                "critical": true,
+                "data": "\\x03\\x02\\x03\\x88",
+                "name": "keyUsage"
+              },
+              {
+                "data": "0\\x14\\x06\\x08+\\x06\\x01\\x05\\x05\\x07\\x03\\x01\\x06\\x08+\\x06\\x01\\x05\\x05\\x07\\x03\\x02",
+                "name": "extendedKeyUsage"
+              },
+              {
+                "data": "0\\x81\\x900F\\xa0D\\xa0B\\x86@http://crl3.digicert.com/DigiCertTLSHybridECCSHA3842020CA1-1.crl0F\\xa0D\\xa0B\\x86@http://crl4.digicert.com/DigiCertTLSHybridECCSHA3842020CA1-1.crl",
+                "name": "crlDistributionPoints"
+              },
+              {
+                "data": "0w0$\\x06\\x08+\\x06\\x01\\x05\\x05\\x070\\x01\\x86\\x18http://ocsp.digicert.com0O\\x06\\x08+\\x06\\x01\\x05\\x05\\x070\\x02\\x86Chttp://cacerts.digicert.com/DigiCertTLSHybridECCSHA3842020CA1-1.crt",
+                "name": "authorityInfoAccess"
+              },
+              {
+                "critical": true,
+                "data": "0\\x00",
+                "name": "basicConstraints"
+              },
+              {
+                "data": "\\x04\\x82\\x01k\\x01i\\x00w\\x00\\x0eW\\x94\\xbc\\xf3\\xae\\xa9>3\\x1b,\\x99\\x07\\xb3\\xf7\\x90\\xdf\\x9b\\xc2=q2%\\xdd!\\xa9%\\xaca\\xc5N!\\x00\\x00\\x01\\x95\\xaac\\xb7\\x87\\x00\\x00\\x04\\x03\\x00H0F\\x02!\\x00\\xeb\\x00\\xf2\\xe9b\\xd6IU\\x89\\xc1\\xe4\\x05\\x19\\x1e*^\\xbd\\xa9\\xd1xu\\x02\\xd9\\xd7\\xb0\\xcdK\\xf2\\xd0\\xa8\\xee\\x11\\x02!\\x00\\xc6v\\xd7Y\\x97\\x0b\\x01\\xee\\xc1Z\\x01\\xc1FJ\\x16:\\xd9\\xe1h\\x85\\xac^\\x14c|\\x80\\xfe\\x8aO76{\\x00v\\x00I\\x9c\\x9bi\\xde\\x1d|\\xec\\xfc6\\xde\\xcd\\x87d\\xa6\\xb8[\\xaf\\n\\x87\\x80\\x19\\xd1UR\\xfb\\xe9\\xeb)\\xdd\\xf8\\xc3\\x00\\x00\\x01\\x95\\xaac\\xb7\\xc9\\x00\\x00\\x04\\x03\\x00G0E\\x02!\\x00\\xd6\\xf2\\xea*t\\xa5\\xac\\xee~w\\xc8\\x98U\\x13|\\x02\\xb4\\x18\\x08\\xf1\\x14\\x87[*\\x0eB7\\xd6\\x88\\x81\\x17\\x1b\\x02 qf%\\xcb\\xebV\\xdc\\x81\\xb5\\xa2\\x9c\\xc8\\x81P}aR\\xe0\\x1f\\xb5M\\x1b\\x88{F\\x02\\x82\\x7f\\x03\\\\\\x10\\x02\\x00v\\x00\\xcb8\\xf7\\x15\\x89|\\x84\\xa1D_[\\xc1\\xdd\\xfb\\xc9n\\xf2\\x9aY\\xcdG\\ni\\x05\\x85\\xb0\\xcb\\x14\\xc3\\x14X\\xe7\\x00\\x00\\x01\\x95\\xaac\\xb7\\x9d\\x00\\x00\\x04\\x03\\x00G0E\\x02 JC5\\xc2\\xab\\xb9\\x8b\\xacx\\r\\x82\\xe0\\x19\\x84\\x17\\x01\\xba\\xa9\\xb6\\xc1\\x7fT\\xba9\\xc8\\xdd:\\xff\\xfd\\x95Y\\xcb\\x02!\\x00\\xde\\x98\\xc0~\\xd2\\xc2\\xd7\\xe3\\xbeB\\xc7\\xdbK\\xe7\\x90\\xe6\\xf9M\\x1cj|\\x8f7D\\xd4\\xb2\\xbc$\\x1c~\\x87\\x98",
+                "name": "ct_precert_scts"
+              }
+            ],
+            "fingerprint": {
+              "sha256": "ba56c4ee2a1c8db710bfe73a1fa3e4b0ad3f290d0192589b8c71de449961c696",
+              "sha1": "51b316119c44f040bcce8ac03a1ad3bbc64740b3"
+            },
+            "serial": 13835825224934513434443952284298366893,
+            "issuer": {
+              "C": "US",
+              "CN": "DigiCert TLS Hybrid ECC SHA384 2020 CA1",
+              "O": "DigiCert Inc"
+            },
+            "expired": false,
+            "subject": {
+              "C": "US",
+              "ST": "Massachusetts",
+              "CN": "a248.e.akamai.net",
+              "O": "Akamai Technologies, Inc.",
+              "L": "Cambridge"
+            }
+          },
+          "cipher": {
+            "version": "TLSv1.3",
+            "bits": 256,
+            "name": "TLS_AES_256_GCM_SHA384"
+          },
+          "trust": {
+            "revoked": false,
+            "browser": null
+          },
+          "handshake_states": [
+            "before SSL initialization",
+            "SSLv3/TLS write client hello",
+            "SSLv3/TLS read server hello",
+            "TLSv1.3 read encrypted extensions",
+            "SSLv3/TLS read server certificate",
+            "TLSv1.3 read server certificate verify",
+            "SSLv3/TLS read finished",
+            "SSLv3/TLS write change cipher spec",
+            "SSLv3/TLS write finished",
+            "SSL negotiation finished successfully"
+          ],
+          "ja3s": "09eeaa98d62f95fb7de5342ec4f7a55e",
+          "ocsp": {
+            "version": "1",
+            "response_status": "successful",
+            "responder_id": "0ABC0829178CA5396D7A0ECE33C72EB3EDFBC37A",
+            "cert_status": "good",
+            "produced_at": "2025-06-30 21:01:26",
+            "signature_algorithm": "ecdsa-with-SHA384",
+            "next_update": "2025-07-07 19:45:01",
+            "this_update": "2025-06-30 20:45:01",
+            "certificate_id": {
+              "hash_algorithm": "sha1",
+              "issuer_name_hash": "2B1D1E98CCF37604D6C1C8BD15A224C804130038",
+              "issuer_name_key": "0ABC0829178CA5396D7A0ECE33C72EB3EDFBC37A",
+              "serial_number": "0A68AED9C861F675E989CFEFA6FBCFAD"
+            }
+          }
+        },
+        "hostnames": [
+          "a248.e.akamai.net",
+          "a23-192-228-80.deploy.static.akamaitechnologies.com"
+        ],
+        "location": {
+          "city": "San Jose",
+          "region_code": "CA",
+          "area_code": null,
+          "longitude": -121.89496,
+          "latitude": 37.33939,
+          "country_code": "US",
+          "country_name": "United States"
+        },
+        "ip": 398517328,
+        "domains": [
+          "akamai.net",
+          "akamaitechnologies.com"
+        ],
+        "org": "Akamai Technologies, Inc.",
+        "data": "HTTP/1.0 400 Bad Request\r\nServer: AkamaiGHost\r\nMime-Version: 1.0\r\nContent-Type: text/html\r\nContent-Length: 312\r\nExpires: Wed, 02 Jul 2025 11:25:07 GMT\r\nDate: Wed, 02 Jul 2025 11:25:07 GMT\r\nConnection: close\r\n\r\n",
+        "port": 443,
+        "opts": {
+          "vulns": [],
+          "heartbleed": "2025/07/02 11:25:15 23.192.228.80:443 - SAFE\n"
+        },
+        "ip_str": "23.192.228.80"
+      }
+    ],
+    "asn": "AS20940",
+    "city": "San Jose",
+    "latitude": 37.33939,
+    "isp": "Akamai International B.V.",
+    "longitude": -121.89496,
+    "last_update": "2025-07-02T22:31:47.349561",
+    "country_name": "United States",
+    "ip_str": "23.192.228.80",
+    "os": null,
+    "ports": [
+      80,
+      443
+    ]
+  }
+}
